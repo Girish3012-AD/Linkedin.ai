@@ -1,0 +1,78 @@
+.connect-container {
+    max-width: 450px;
+    margin: 4rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linkedin-logo {
+    background: white;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+
+.linkedin-logo span {
+    color: #0077b5;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.subtitle {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.security-note {
+    background: rgba(56, 189, 248, 0.1);
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    padding: 1rem;
+    border-radius: var(--radius-md);
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+}
+
+.security-note .icon {
+    font-size: 1.2rem;
+}
+
+.security-note p {
+    font-size: 0.85rem;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.btn-linkedin {
+    background: #0077b5;
+    color: white;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    width: 100%;
+    transition: all 0.2s;
+}
+
+.btn-linkedin:hover {
+    background: #006097;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px -3px rgba(0, 119, 181, 0.4);
+}
+
+.disclaimer {
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    font-style: italic;
+}
