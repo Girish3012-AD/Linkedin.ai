@@ -40,7 +40,7 @@ function App() {
     <div className="app-container">
       <div className="demo-badge">RUNNING IN DEMO MODE</div>
       <header className="main-header">
-        <div className="logo">Linkin<span className="dot">.</span>AI</div>
+        <div className="logo">LinkedIn<span className="dot">.</span>AI</div>
         <div className="header-actions">
           {userAccount && (
             <div className="connected-badge" onClick={handleDisconnect} title="Click to disconnect">
